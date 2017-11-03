@@ -1,0 +1,4 @@
+'use strict';
+
+console.log('sdsdfs');
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uanMiXSwibmFtZXMiOlsiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6Ijs7QUFFQUEsUUFBUUMsR0FBUixDQUFZLFFBQVoiLCJmaWxlIjoic2NyaXB0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbmNvbnNvbGUubG9nKCdzZHNkZnMnKTsiXX0=
