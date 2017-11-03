@@ -83,18 +83,7 @@ gulp.task('lint', function () {
     .pipe(eslint.failAfterError())
 })
 
-//
-// KSS Styleguide.
-//
 
-gulp.task('styleguide', function () {
-  return kss({
-    source: 'src/sass',
-    destination: '.tmp/styleguide',
-    css: '../css/styles.css',
-    homepage: 'styleguide.md'
-  })
-})
 
 //
 // Dev server.
@@ -115,10 +104,9 @@ gulp.task('watch', function () {
   gulp.watch('src/**/*.html', ['html:dev'])
   gulp.watch('src/**/*.(png|jpe?g|gif)', ['images:dev'])
   gulp.watch('src/js/**/*.js', ['lint', 'js:dev'])
-  gulp.watch('src/sass/**/*', ['styleguide'])
 })
 
 //
 // Task declarations.
 //
-gulp.task('dev', ['html:dev', 'images:dev', 'styles:dev', 'js:dev', 'styleguide', 'connect', 'watch'])
+gulp.task('dev', ['html:dev', 'images:dev', 'styles:dev', 'js:dev', 'connect', 'watch'])

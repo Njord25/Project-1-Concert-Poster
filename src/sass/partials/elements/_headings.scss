@@ -1,5 +1,6 @@
 h1 {
     font-size: 1.8rem;
+    writing-mode: vertical-rl;
 
     @include query(500px) {
         font-size: 2rem;

@@ -2,7 +2,7 @@
     margin: 0 auto;
     width: 100%;
 
-    @include query(500px) {
+    @include query(550px) {
         width: 85%;
     }
 

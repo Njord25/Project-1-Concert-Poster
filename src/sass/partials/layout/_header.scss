@@ -1,6 +1,6 @@
 .logo {
-    width: 60px;
     margin: $space-base 0 0 0;
+    width: 60px;
 
      @include query(975px) {
         margin: $space-base 0 0 $space-medium;

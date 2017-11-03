@@ -33,7 +33,7 @@
 }
 
 .info--border {
-    border-bottom: 5px dotted #c5b493;
+    border-bottom: 4px dotted #c5b493;
 }
 
 
@@ -51,27 +51,28 @@
 
 .info__album-web {
      width: 50%;
-     float: right;
-     text-align: right;
+     float: left;
+     text-align: left;
 
     @include query(630px) {
-        width: 30%;
+        width: 50%;
     }
 
     @include query(650px) {
         margin-right: $space-base;
+        width: 55%;
     }
 }
 
-.tame-art__img {
+.art__img {
     margin: 0 auto;
     background:transparent;
     background-size: 50%;
 
     @include query(650px) {
-        height: 100vh;
-        display: -webkit-flex;
-        -webkit-justify-content: center;
+        width: 100vh;
+        display: flex;
+        justify-content: center;
         -webkit-align-items: center;
     }
 }
@@ -89,36 +90,10 @@
 
     @include query(650px) {
         flex: 1 auto;
-        width: 50%;
+        width: 100%;
     }
 }
-
-.loading {
-	-webkit-animation: pulse 1s infinite;
-}
-
-@-webkit-keyframes rotation {
-    from {
-            -webkit-transform: rotate(0deg);
-    }
-    to {
-            -webkit-transform: rotate(359deg);
-    }
-}
-
-@-webkit-keyframes nieve{
-    from {top: -10px;}
-    to {top: 450px;}
- }
-       
- @-webkit-keyframes copos{
-     0% { -webkit-transform: rotate(-180deg) translate(0px, 0px);}
-     100% { -webkit-transform: rotate(180deg) translate(10px, 75px);}
- }
-
- 
-
-.info__tameimpala:after {
+.info_delain:after {
     font-size: 10px;
     position: absolute;
     top: 6px;
@@ -130,7 +105,6 @@
 }
 
 .info__support:after {
-    content: '{NO}';
     font-size: 6px;
     position: absolute;
     top: 0;

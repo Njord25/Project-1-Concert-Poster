@@ -5,17 +5,16 @@
 }
 
 html {
-  font: 1em/1.5 $font-family-base; // 1
+  font: 1em/1.5 $font-family-base; 
   width: 100%;
   height: 100%;
-  -ms-text-size-adjust: 100%; // 3
-  -webkit-text-size-adjust: 100%; // 3
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
 
-// Remove the margin in all browsers (opinionated).
 body {
   background-image: url(../img/bg.jpg);
   width: 100%;
@@ -24,7 +23,7 @@ body {
   position: relative;
 }
 
-// Add the correct display in IE 9-.
+
 article,
 aside,
 footer,
